@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "lib": ["es5", "es6", "dom"],
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "declaration": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "stripInternal": true,
+        "pretty": true,
+        "strictNullChecks": true,
+        "noUnusedLocals": false,
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "outDir": "compiled"
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "src/rpcdef/*.ts",
+        "src/firebase-test/browser/*.ts"
+    ]
+}
