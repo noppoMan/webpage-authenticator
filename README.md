@@ -23,11 +23,11 @@ npm i
 ### Serving
 
 #### Environment Variables
-* TP_PROXY_URL: A url for proxy target
+* WA_PROXY_URL: A url for proxy target
 * PORT: Listening port of proxy server
 
 ```sh
-TP_PROXY_URL=http://proxy-target.com:8080 ts-node webpage-authenticator/src/proxy.ts
+WA_PROXY_URL=http://proxy-target.com:8080 ts-node webpage-authenticator/src/proxy.ts
 ```
 
 #### Serving with Basic Authentication 

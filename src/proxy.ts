@@ -107,11 +107,11 @@ function isNotEmpty(val: string|undefined|null) {
     return true;
 }
 
-const useHTTPS = isNotEmpty(process.env.TP_USE_HTTPS);
-const ProxyURL = process.env.TP_PROXY_URL;
+const useHTTPS = isNotEmpty(process.env.WA_USE_HTTPS);
+const ProxyURL = process.env.WA_PROXY_URL;
 
 if(!ProxyURL) {
-    console.log("the env var `TP_PROXY_URL` should not be empty");
+    console.log("the env var `WA_PROXY_URL` should not be empty");
     process.exit(1);
 }
 
