@@ -127,7 +127,7 @@ async function main() {
         authenticator.authenticate(req, res, () => {
             proxy.web(req, res);
         });
-    }).listen(3000);
+    }).listen(process.env.PORT || 3000);
 }
 
 main();
