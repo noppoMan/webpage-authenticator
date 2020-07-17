@@ -2,7 +2,7 @@
 
 A Proxy Server with custom authorizers. This is mainly developed for providing authentication for Tensorboard to avoid leaking secret data.
 
-<img src="https://user-images.githubusercontent.com/1511276/87540304-66515d80-c6da-11ea-885c-8f5397be7813.gif">
+<img src="https://user-images.githubusercontent.com/1511276/87754389-be55a480-c83f-11ea-8bae-d50fd8a452eb.gif">
 
 ## Supported Authorization methods
 
